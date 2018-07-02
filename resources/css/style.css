@@ -1,0 +1,19 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* DESKTOP */
+
+/* MOBILE ELEMENTS */
+.mobile-nav {
+  display: none;
+}
+
+.about-mobile {
+  display: none;
+}
+
+.learning-mobile {
+  display: none;
+}
