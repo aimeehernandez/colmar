@@ -73,7 +73,6 @@ nav {
 
 .information {
   width: 100%;
-  border: solid black;
   display: flex;
   align-content: space-between;
 }
@@ -128,7 +127,12 @@ nav {
 .courses {
   width: 100%;
   text-align: center;
-  border: solid black;
+}
+
+.courses h1 {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .subjects {
@@ -139,17 +143,15 @@ nav {
   align-content: center;
 }
 
-.courses h1 {
-  display: block;
-}
-
 .subject {
-  border: solid black;
   width: 25%;
+  height: 300px;
+  margin-bottom: 32px;
 }
 
 .subject img {
   width: 100%;
+  height: auto;
 }
 
 .subject.left {
@@ -157,12 +159,23 @@ nav {
 }
 
 .subject.middle {
-  margin: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .subject.right {
   margin-right: 72px;
 }
+
+.course-info {
+  padding: 16px;
+  text-align: left;
+}
+
+.course-info p {
+  padding-top: 16px;
+}
+
 
 /* THESIS */
 
