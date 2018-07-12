@@ -1,6 +1,15 @@
 html {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .container {
@@ -61,10 +70,11 @@ nav {
 
 .success {
   margin: 32px 24px;
+  width: 60%;
 }
 
 .success img {
-  width: 60%;
+  width: 100%;
 }
 
 .events {
@@ -75,6 +85,16 @@ nav {
 
 .image-container {
   display: inline-flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 35%;
+  height: auto;
+}
+
+.image-details {
+  width: 65%;
 }
 
 /* COURSES */
@@ -92,8 +112,31 @@ nav {
   width: 30%;
 }
 
+.subject img {
+  width: 100%;
+}
+
 /* THESIS */
+
+.thesis-info {
+  display: inline-flex;
+}
 
 .main-thesis{
   width: 60%;
+}
+
+.thesis-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+/* FOOTER */
+
+footer {
+  border: solid black;
+  height: 64px;
+  display: flex;
+  align-content: space-between;
 }
