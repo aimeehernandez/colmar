@@ -87,10 +87,20 @@ nav {
   width: 100%;
 }
 
+.success h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.success p {
+  padding-bottom: 32px;
+}
+
 .events {
   display: flex;
   flex-direction: column;
   width: 40%;
+  padding-top: 32px;
 }
 
 .image-container {
@@ -101,10 +111,16 @@ nav {
 .image-container img {
   width: 35%;
   height: auto;
+  margin: 16px;
 }
 
 .image-details {
   width: 65%;
+  padding-right: 8px;
+}
+
+.image-details h2, .image-details p {
+  padding-bottom: 8px;
 }
 
 /* COURSES */
