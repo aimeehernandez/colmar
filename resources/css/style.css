@@ -179,8 +179,10 @@ nav {
 
 /* THESIS */
 
-.thesis {
+.thesis h1{
   text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .thesis-info {
@@ -189,6 +191,13 @@ nav {
 
 .main-thesis{
   width: 60%;
+  margin-bottom: 32px;
+  margin-right: 24px;
+}
+
+.main-thesis h2 {
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 .thesis-list {
