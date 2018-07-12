@@ -209,8 +209,21 @@ nav {
 /* FOOTER */
 
 footer {
-  border: solid black;
   height: 64px;
   display: flex;
   justify-content: space-between;
+}
+
+.copyright {
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.links {
+  padding-top: 16px;
+  padding-right: 8px;
+}
+
+.links a {
+  margin-right: 16px;
 }
