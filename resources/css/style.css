@@ -4,12 +4,12 @@ html {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .container {
@@ -22,17 +22,24 @@ h2 {
 nav {
   width: 100%;
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
   align-items: center;
   height: 64px;
-  border: solid black;
 }
 
-.logo {
+.header-logo {
   margin-left: 24px;
   height: 32px;
   display: flex;
   align-items: center;
+}
+
+.menu {
+  padding-right: 8px;
+}
+
+.menu span {
+  margin-right: 16px;
 }
 
 .banner {
@@ -40,7 +47,6 @@ nav {
   display: flex;
   align-items: center;
   align-content: center;
-  border: solid black;
 }
 
 .banner img {
@@ -52,11 +58,15 @@ nav {
   width: 30%;
 }
 
-.banner .button {
+.banner .button h2{
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
   border: solid black;
+}
+
+.start h1, .start h2 {
+  margin-bottom: 24px;
 }
 
 /* INFORMATION SECTION */
@@ -100,6 +110,12 @@ nav {
 /* COURSES */
 
 .courses {
+  width: 100%;
+  text-align: center;
+  border: solid black;
+}
+
+.subjects {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -107,16 +123,36 @@ nav {
   align-content: center;
 }
 
+.courses h1 {
+  display: block;
+}
+
 .subject {
   border: solid black;
-  width: 30%;
+  width: 25%;
 }
 
 .subject img {
   width: 100%;
 }
 
+.subject.left {
+  margin-left: 72px;
+}
+
+.subject.middle {
+  margin: 32px;
+}
+
+.subject.right {
+  margin-right: 72px;
+}
+
 /* THESIS */
+
+.thesis {
+  text-align: center;
+}
 
 .thesis-info {
   display: inline-flex;
@@ -138,5 +174,5 @@ footer {
   border: solid black;
   height: 64px;
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
 }
