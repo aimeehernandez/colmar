@@ -1,14 +1,16 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
 h1 {
+  font-family: 'PT Serif', serif;
   font-size: 32px;
   font-weight: bold;
 }
 
 h2 {
+font-family: 'PT Serif', serif;
   font-size: 24px;
 }
 
@@ -67,6 +69,10 @@ nav {
 
 .start h1, .start h2 {
   margin-bottom: 24px;
+}
+
+nav.mobile-container {
+  display: none;
 }
 
 /* INFORMATION SECTION */
@@ -176,6 +182,9 @@ nav {
   padding-top: 16px;
 }
 
+.mobile-container.courses {
+  display: none;
+}
 
 /* THESIS */
 
@@ -226,4 +235,54 @@ footer {
 
 .links a {
   margin-right: 16px;
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 640px) {
+  .mobile-container {
+    max-width: 100%;
+  }
+
+  .container nav{
+    display: none;
+  }
+
+  nav.mobile-container {
+    display: flex;
+  }
+
+  div.success {
+    display: none;
+  }
+
+  div.events {
+    width: 100%;
+  }
+
+  .container.courses {
+    display: none;
+  }
+
+  .mobile-container.courses {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.main-thesis {
+    width: 100%;
+  }
+
+  .main-thesis h2, .main-thesis p {
+    display: none;
+  }
+
+  div.thesis-list {
+    display: none;
+  }
+
+  footer.container {
+    width: 100%;
+  }
+
 }
