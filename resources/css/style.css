@@ -113,7 +113,7 @@ nav.mobile-container {
   align-items: center;
 }
 
-.image-container img {
+.image-container img.desktop-image {
   width: 35%;
   height: auto;
   margin: 16px;
@@ -126,6 +126,10 @@ nav.mobile-container {
 
 .image-details h2, .image-details p {
   padding-bottom: 8px;
+}
+
+img.mobile-image {
+  display: none;
 }
 
 /* COURSES */
@@ -239,7 +243,7 @@ footer {
 
 /* MOBILE STYLES */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 860px) {
   .mobile-container {
     max-width: 100%;
   }
@@ -250,6 +254,29 @@ footer {
 
   nav.mobile-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+  }
+
+  .banner .start {
+    width: 90%;
+    padding: 32px 16px;
+  }
+
+  .button {
+    width: 80%;
   }
 
   div.success {
@@ -258,6 +285,30 @@ footer {
 
   div.events {
     width: 100%;
+  }
+
+  img.desktop-image {
+    display: none;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .image-details {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .image-container img.mobile-image {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
   }
 
   .container.courses {
@@ -269,8 +320,17 @@ footer {
     flex-direction: column;
   }
 
+  .mobile-container.courses span {
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right:8px;
+    border: solid black;
+  }
+
   div.main-thesis {
     width: 100%;
+    margin-right: 0px;
   }
 
   .main-thesis h2, .main-thesis p {
