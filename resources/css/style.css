@@ -1,6 +1,7 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  color: #555B6E;
 }
 
 h1 {
@@ -12,6 +13,10 @@ h1 {
 h2 {
 font-family: 'PT Serif', serif;
   font-size: 24px;
+}
+
+a {
+  color: #5863F8;
 }
 
 .container {
@@ -38,6 +43,7 @@ nav {
 
 .menu {
   padding-right: 8px;
+  color: #5863F8;
 }
 
 .menu span {
@@ -49,6 +55,7 @@ nav {
   display: flex;
   align-items: center;
   align-content: center;
+  background-color: #FAFAFF;
 }
 
 .banner img {
@@ -64,7 +71,8 @@ nav {
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
-  border: solid black;
+  color: white;
+  background-color: #5863F8;
 }
 
 .start h1, .start h2 {
@@ -74,6 +82,7 @@ nav {
 nav.mobile-container {
   display: none;
 }
+
 
 /* INFORMATION SECTION */
 
@@ -137,6 +146,7 @@ img.mobile-image {
 .courses {
   width: 100%;
   text-align: center;
+  background-color: #FAFAFF;
 }
 
 .courses h1 {
@@ -178,12 +188,16 @@ img.mobile-image {
 }
 
 .course-info {
-  padding: 16px;
   text-align: left;
+  background-color: white;
+  height: 168px;
+  padding-left: 16px;
+  padding-top: 16px;
 }
 
 .course-info p {
   padding-top: 16px;
+  color: #706F6F;
 }
 
 .mobile-container.courses {
@@ -218,6 +232,8 @@ img.mobile-image {
   flex-direction: column;
   width: 40%;
 }
+
+
 
 /* FOOTER */
 
@@ -318,6 +334,7 @@ footer {
   .mobile-container.courses {
     display: flex;
     flex-direction: column;
+    background-color: white;
   }
 
   .mobile-container.courses span {
@@ -325,7 +342,7 @@ footer {
     margin-bottom: 8px;
     margin-left: 8px;
     margin-right:8px;
-    border: solid black;
+    background-color: #B8D8D8;
   }
 
   div.main-thesis {
