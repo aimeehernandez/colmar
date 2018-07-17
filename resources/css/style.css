@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
   font-size: 24px;
 }
 
@@ -67,7 +67,7 @@ nav {
   width: 30%;
 }
 
-.banner .button h2{
+.banner .button h2 {
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
@@ -82,7 +82,6 @@ nav {
 nav.mobile-container {
   display: none;
 }
-
 
 /* INFORMATION SECTION */
 
@@ -206,7 +205,7 @@ img.mobile-image {
 
 /* THESIS */
 
-.thesis h1{
+.thesis h1 {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -216,7 +215,7 @@ img.mobile-image {
   display: inline-flex;
 }
 
-.main-thesis{
+.main-thesis {
   width: 60%;
   margin-bottom: 32px;
   margin-right: 24px;
@@ -232,8 +231,6 @@ img.mobile-image {
   flex-direction: column;
   width: 40%;
 }
-
-
 
 /* FOOTER */
 
@@ -263,50 +260,40 @@ footer {
   .mobile-container {
     max-width: 100%;
   }
-
-  .container nav{
+  .container nav {
     display: none;
   }
-
   nav.mobile-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-
   .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .banner img {
     width: 100%;
     height: auto;
     margin: 0px 0px;
   }
-
   .banner .start {
     width: 90%;
     padding: 32px 16px;
   }
-
   .button {
     width: 80%;
   }
-
   div.success {
     display: none;
   }
-
   div.events {
     width: 100%;
   }
-
   img.desktop-image {
     display: none;
   }
-
   .image-container {
     display: flex;
     flex-direction: column;
@@ -315,51 +302,41 @@ footer {
     margin-left: 16px;
     margin-right: 16px;
   }
-
   .image-details {
     width: 100%;
     padding: 16px;
   }
-
   .image-container img.mobile-image {
     display: block;
     width: 100%;
     margin-left: 0px;
   }
-
   .container.courses {
     display: none;
   }
-
   .mobile-container.courses {
     display: flex;
     flex-direction: column;
     background-color: white;
   }
-
   .mobile-container.courses span {
     padding: 16px;
     margin-bottom: 8px;
     margin-left: 8px;
-    margin-right:8px;
+    margin-right: 8px;
     background-color: #B8D8D8;
   }
-
   div.main-thesis {
     width: 100%;
     margin-right: 0px;
   }
-
   .main-thesis h2, .main-thesis p {
     display: none;
   }
-
   div.thesis-list {
     display: none;
   }
-
   footer.container {
     width: 100%;
   }
-
 }
